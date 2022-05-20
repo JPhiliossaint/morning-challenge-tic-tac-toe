@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    background-color:  lavender;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size:  50px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+h3{
+    color: red;
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 5%;
+  }
+  div{
+    border: 5px solid white;
+    height: 180px;
+    width: 30%;
+    font-size:  150px;
+    color: white;
+
+  }
+  button{
+    color: white;
+    background-color: black;
+   text-decoration: none;
+   border-radius: 10px;
+   width: 200px;
+  }
